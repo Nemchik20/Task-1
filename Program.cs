@@ -47,7 +47,8 @@ namespace TaskOne
                         }
                     }
                 }
-                
+                throw new Exception("Не верно указан путь");
+
             }
             catch (Exception ex)
             {
